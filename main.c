@@ -7,6 +7,8 @@
 // Description : Main Program for MSP430F5529 + CC2650 BLE Demo
 //			   : In this code pressing the push buttons will switch on/off LED's
 //			   : LED's status will be available for display on android or iOS applications
+//             : In this code pressing the push buttons will switch on/off LED's
+//             : LED's status will be available for display on android or iOS applications
 //============================================================================
 /*
  * Main.c
