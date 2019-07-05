@@ -6,8 +6,13 @@
 // Version     : Rev 0.01
 // Copyright   : Your copyright notice
 // Description : Main Program for MSP430F5529 + CC2650 BLE Demo
-//             : In this code pressing the push buttons will switch on/off LED's
-//             : LED's status will be available for display on android or iOS applications
+//             : On boot up both LED1 and LED2 are OFF
+//             : When switch 1 (S1) is pressed LED1 is switched on and LED2 is switch off
+//             : The LED1 ON and LED2 OFF will be transmitted to an app via the BLE
+//             : When switch 2 (S2) is pressed LED2 is switched on and LED1 is switch off
+//             : The LED1 OFF and LED2 ON will be transmitted to an app via the BLE
+//             : When both switch 1 (S1) and switch 2 (S2) are pressed both LED1 & LED2 are  switched ON
+//             : When LED1 and LED2 are ON a notification will be transmitted to an app via the BLE
 //
 //============================================================================
 /*
